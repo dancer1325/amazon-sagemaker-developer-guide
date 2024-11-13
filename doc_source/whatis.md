@@ -1,8 +1,23 @@
 # What Is Amazon SageMaker?<a name="whatis"></a>
 
-Amazon SageMaker is a fully managed machine learning service\. With SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production\-ready hosted environment\. It provides an integrated Jupyter authoring notebook instance for easy access to your data sources for exploration and analysis, so you don't have to manage servers\. It also provides common machine learning algorithms that are optimized to run efficiently against extremely large data in a distributed environment\. With native support for bring\-your\-own\-algorithms and frameworks, SageMaker offers flexible distributed training options that adjust to your specific workflows\. Deploy a model into a secure and scalable environment by launching it with a few clicks from SageMaker Studio or the SageMaker console\.
-
-This guide includes information and tutorials on SageMaker features\. For additional information, see [Amazon SageMaker developer resources](http://aws.amazon.com/sagemaker/developer-resources/)\.
+* Amazon SageMaker
+  * == fully managed machine learning service
+    * allows
+      * build & train machine learning models
+      * deploy them | production-ready hosted environment
+        * -- via -- few clicks | 
+          * SageMaker Studio or
+          * SageMaker console
+      * integrate machine learning-based models | your applications
+    * provides
+      * integrated Jupyter authoring notebook instance
+        * -> NOT have to manage servers
+      * common machine learning algorithms / are optimized
+        * ALSO, you can bring-your-own-
+          * algorithms
+          * frameworks
+      * flexible distributed training options
+  * see ALSO [Amazon SageMaker developer resources](http://aws.amazon.com/sagemaker/developer-resources/)
 
 **Topics**
 + [Amazon SageMaker Features](whatis-features-alpha.md)
@@ -11,20 +26,19 @@ This guide includes information and tutorials on SageMaker features\. For additi
 
 ## Amazon SageMaker Pricing<a name="whatis-pricing"></a>
 
-As with other AWS products, there are no contracts or minimum commitments for using Amazon SageMaker\. Training and hosting are billed by minutes of usage, with no minimum fees and no upfront commitments\. For more information about the cost of using SageMaker, see [SageMaker Pricing](http://aws.amazon.com/sagemaker/pricing/)\.
+* Training and hosting are billed / minutes of usage
+  * NO minimum fees
+  * see [SageMaker Pricing](http://aws.amazon.com/sagemaker/pricing/)
 
 ## Are You a First\-time User of Amazon SageMaker?<a name="first-time-user"></a>
 
-If you are a first\-time user of SageMaker, we recommend that you do the following: 
-
-1. **Read [How Amazon SageMaker Works](#how-it-works)** – This section provides an overview of SageMaker, explains key concepts, and describes the core components involved in building AI solutions with SageMaker\. We recommend that you read this topic in the order presented\.
-
-1. **[Set Up Amazon SageMaker Prerequisites](gs-set-up.md)** – This section explains how to set up your AWS account\.
-
-1. Amazon SageMaker Autopilot simplifies the machine learning experience by automating machine learning tasks\. If you are new to SageMaker, it provides the easiest learning path\. It also serves as an excellent ML learning tool that provides visibility into the code with notebooks generated for each of the automated ML tasks\. For an introduction to its capabilities, see [Automate model development with Amazon SageMaker Autopilot](autopilot-automate-model-development.md)\. To get started building, training, and deploying machine learning models, Autopilot provides:
-   + [Samples: Explore modeling with Amazon SageMaker Autopilot](autopilot-samples.md)
-   + [Videos: Use Autopilot to automate and explore the machine learning process](autopilot-videos.md)
-   + [Tutorials: Get started with Amazon SageMaker Autopilot](autopilot-tutorials.md)
+1. **Read [How Amazon SageMaker Works](#how-amazon-sagemaker-worksa-namehow-it-worksa)**
+2. **[Set Up Amazon SageMaker Prerequisites](gs-set-up.md)**
+3. Amazon SageMaker Autopilot
+   1. TODO: simplifies the machine learning experience by automating machine learning tasks\. If you are new to SageMaker, it provides the easiest learning path\. It also serves as an excellent ML learning tool that provides visibility into the code with notebooks generated for each of the automated ML tasks\. For an introduction to its capabilities, see [Automate model development with Amazon SageMaker Autopilot](autopilot-automate-model-development.md)\. To get started building, training, and deploying machine learning models, Autopilot provides:
+      + [Samples: Explore modeling with Amazon SageMaker Autopilot](autopilot-samples.md)
+      + [Videos: Use Autopilot to automate and explore the machine learning process](autopilot-videos.md)
+      + [Tutorials: Get started with Amazon SageMaker Autopilot](autopilot-tutorials.md)
 
 1. **[Get Started with Amazon SageMaker](gs.md)** – This section walks you through training your first model using SageMaker Studio, or the SageMaker console and the SageMaker API\. You use training algorithms provided by SageMaker\.
 
@@ -37,16 +51,14 @@ If you are a first\-time user of SageMaker, we recommend that you do the followi
 
 ### How Amazon SageMaker Works<a name="how-it-works"></a>
 
-SageMaker is a fully managed service that enables you to quickly and easily integrate machine learning\-based models into your applications\. This section provides an overview of machine learning and explains how SageMaker works\. If you are a first\-time user of SageMaker, we recommend that you read the following sections in order:
+* goal
+  * overview of SageMaker,
+  * key concepts,
+  * core components
 
 1. [Machine Learning with Amazon SageMaker](how-it-works-mlconcepts.md)
-
-1. [Explore, Analyze, and Process Data](how-it-works-notebooks-instances.md)
-
-1. [Train a Model with Amazon SageMaker](how-it-works-training.md)
-
-1. [Deploy a Model in Amazon SageMaker](how-it-works-deployment.md)
-
-1. [Use Machine Learning Frameworks, Python, and R with Amazon SageMaker](frameworks.md)
-
-1. [Get Started with Amazon SageMaker](gs.md)
+2. [Explore, Analyze, and Process Data](how-it-works-notebooks-instances.md)
+3. [Train a Model with Amazon SageMaker](how-it-works-training.md)
+4. [Deploy a Model in Amazon SageMaker](how-it-works-deployment.md)
+5. [Use Machine Learning Frameworks, Python, and R with Amazon SageMaker](frameworks.md)
+6. [Get Started with Amazon SageMaker](gs.md)
